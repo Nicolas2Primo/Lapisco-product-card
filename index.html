@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/dist/output.css" rel="stylesheet" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div
+      class="bg-[#F2EBE3] h-screen w-screen items-center justify-center flex p-8 xs:0"
+    >
+      <div
+        class="flex flex-col rounded-lg overflow-hidden xs:grid xs:grid-cols-2 xs:grid-rows-1 max-w-xl xs:max-h-[385px]"
+      >
+        <div class="">
+          <img
+            class="block xs:hidden"
+            src="/images/image-product-mobile.jpg"
+            alt=""
+          />
+
+          <img
+            class="hidden xs:block object-cover h-[430px] w-[400px]"
+            src="/images/image-product-desktop.jpg"
+            alt=""
+          />
+        </div>
+        <div
+          class="bg-white flex flex-col p-6 gap-[10px] xs:gap-[6px] md_1:gap-[14px]"
+        >
+          <span
+            class="font-montserrat text-[10px] text-gray-500 xs:text-[8px] md_1:text-[10px]"
+            >P E R F U M E</span
+          >
+          <h1 class="font-fraunces text-3xl xs:text-2xl md_1:text-3xl">
+            Gabrielle Essence Eau De Parfum
+          </h1>
+          <p
+            class="text-[14px] font-montserrat xs:text-[11px] md_1:text-[14px]"
+          >
+            A floral, solar and voluptuous interpretation composed by Olivier
+            Polge, Perfumer-Creator for the House of CHANEL.
+          </p>
+          <div
+            class="font-fraunces flex gap-4 items-center xs:gap-2 md_1:gap-4"
+          >
+            <span class="text-2xl text-[#3C8067] xs:text-xl">$149.99</span>
+            <span class="line-through text-[10px] text-gray-500 xs:text-[9px]"
+              >$169.99</span
+            >
+          </div>
+          <div class="flex justify-center">
+            <div
+              class="bg-[#3C8067] w-72 h-11 flex items-center justify-center rounded-lg gap-3 xs:gap-2"
+            >
+              <img src="/images/icon-cart.svg" alt="" />
+              <span class="font-montserrat text-sm text-white"
+                >Add to Cart</span
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
